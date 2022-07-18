@@ -1,0 +1,8 @@
+#Library system
+#import cpp -> All
+
+public class io{
+    void print(string Str,string delimiter="\n"){
+        cpp.runcode("cout<<"+Str+"<<"+"\""+delimter+"\"");
+    }
+}
